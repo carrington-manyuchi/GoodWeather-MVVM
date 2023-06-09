@@ -21,6 +21,7 @@
 		8C5E4A582A336C0400931EC0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E4A572A336C0400931EC0 /* Constants.swift */; };
 		8C5E4A5B2A336D0B00931EC0 /* String+Etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E4A5A2A336D0B00931EC0 /* String+Etensions.swift */; };
 		8C5E4A5D2A33700200931EC0 /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E4A5C2A33700200931EC0 /* WeatherListViewModel.swift */; };
+		8C5E4A5F2A337A5D00931EC0 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E4A5E2A337A5D00931EC0 /* Double+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		8C5E4A572A336C0400931EC0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8C5E4A5A2A336D0B00931EC0 /* String+Etensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Etensions.swift"; sourceTree = "<group>"; };
 		8C5E4A5C2A33700200931EC0 /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		8C5E4A5E2A337A5D00931EC0 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				8C5E4A5A2A336D0B00931EC0 /* String+Etensions.swift */,
+				8C5E4A5E2A337A5D00931EC0 /* Double+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5E4A5F2A337A5D00931EC0 /* Double+Extensions.swift in Sources */,
 				8C5E4A4C2A33564800931EC0 /* WeatherTableViewCell.swift in Sources */,
 				8C5E4A552A336BB500931EC0 /* AddWeatherViewModel.swift in Sources */,
 				8C5E4A042A30A1A400931EC0 /* WeatherListTableViewController.swift in Sources */,
